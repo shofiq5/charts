@@ -1,7 +1,7 @@
 ## Bitnami OpenCart image version
 ## ref: https://hub.docker.com/r/bitnami/opencart/tags/
 ##
-image: bitnami/opencart:3.0.2-0-r1
+image: bitnami/opencart:latest
 
 ## Specify a imagePullPolicy
 ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
@@ -67,7 +67,7 @@ mariadb:
     ##
     # storageClass: "-"
     accessMode: ReadWriteOnce
-    size: 8Gi
+    size: 6Gi
 
 ## Kubernetes configuration
 ## For minikube, set this to NodePort, elsewhere use LoadBalancer
